@@ -48,6 +48,7 @@ namespace FileFinder {
       foreach(string item in result) {
         dt.Rows.Add(item);
       }
+      dt.Rows.Add("-");
 
       dgv_resultr.DataSource = dt;
     }
